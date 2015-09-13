@@ -1,0 +1,245 @@
+body {
+ background-color: white;  
+}
+    
+
+    
+     
+.content{ 
+    text-align: center;
+    float: center;
+    background-color: #AEC6CF;
+}
+    
+ul#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    position:inherit;
+}
+
+li.a {
+    float: right;
+    
+}
+
+a.ex1:link, a.ex1:visited {
+    display: block;
+    width: 200px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    
+}
+
+a.ex1:hover, a.ex1:active {
+    background-color: #AEC6CF;
+}
+
+.innerContainer{
+ height:40px;
+ width: auto;
+ background-color:  #AEC6CF;
+    padding-left: 10px;
+}
+
+.menusq{
+ height: 200px;
+    width: auto;
+padding-top: 165px;
+
+}
+
+.innerContainer2{
+ height:750px;
+ width: auto;
+    padding-right: 20px;
+    padding-left: 30px;
+    padding-top: 20px;
+    background-color: #AEC6CF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+
+.innerContainer3{
+ height:480px;
+ width: auto;
+ background-color:  #AEC6CF;
+
+
+}
+
+.email{
+ font-size: 15px;   
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+h1{
+ font-size: 18px;   
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+   padding-top: 5px;
+}
+
+.findus{
+border: 0;
+
+}
+
+.lineseparator{
+   height: 1px;
+    background-color: white;
+}
+
+h2{
+ font-size: 18px;   
+    text-align: left;
+    padding-left: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+li.b{
+ text-align: left;
+}
+ul#help{
+    list-style-type: none;
+        font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    
+}
+
+li.c{
+ text-align: right; 
+    margin-right: 40px;
+}
+
+ul#Shopping{
+ list-style-type: none;
+
+    
+}
+
+a.ex2:link, a.ex2:visited {
+
+    width: 200px;
+    color: black;
+
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    
+}
+
+a.ex2:hover, a.ex2:active {
+    color: white;
+}
+
+h3{
+  font-size: 18px;   
+    text-align: right;
+    padding-right: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; 
+    margin-top: -120px;
+}
+
+h7{
+font-family: 'Lobster', cursive;
+    font-size: 150px;
+   float: left;
+padding-left: 100px;
+    position: absolute;
+}
+
+
+a.poem:link, a.poem:visited {
+    color:  #AEC6CF;
+    text-decoration: none;
+}
+
+a.poem:hover, a.poem:active {
+    color: black;
+}
+   
+.dcat1{
+    padding-top: 40px;
+   
+}
+
+.one{
+ padding-left: 20px;  
+    
+}
+
+h9{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; 
+    font-size: 20px;
+    float:right;
+    text-align:center;
+position: absolute;
+    border-bottom: 1px solid white;
+    width: 400px;
+    padding-bottom:10px;
+}
+
+h10{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; 
+    font-size: 18px;
+    float:right;
+    text-align:center;
+
+    position: absolute;
+      border-bottom: 1px solid white;
+    width: 400px;
+
+}
+
+p{
+ font-family: 'Open Sans', sans-serif;
+    font-weight: 300; 
+    font-size: 16px;
+    margin-top:10px;
+    text-align:center;
+
+  
+}
+
+.details{
+ height: 600px;
+    width:400px;
+    position: absolute;
+float:right;
+    margin-left:475px;
+}
+
+.button1{
+     font-family: 'Open Sans', sans-serif;
+    font-weight: 300; 
+    font-size: 16px;
+   
+    content-align:center;
+}
+
+.imgbut{
+ padding-left:150px;   
+}
+
+.imgbut2{
+ padding-left:170px;   
+}   
+  

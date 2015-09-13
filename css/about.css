@@ -1,0 +1,205 @@
+body {
+ background-color: white;  
+}
+
+h7{
+font-family: 'Lobster', cursive;
+    font-size: 150px;
+   float: left;
+padding-left: 100px;
+    position: absolute;
+}
+
+
+a.poem:link, a.poem:visited {
+    color: black;
+    text-decoration: none;
+  
+}
+
+a.poem:hover, a.poem:active {
+    color: #AEC6CF;
+}
+
+
+      
+.content{ 
+    text-align: center;
+    float: center;
+    background-color: #AEC6CF;
+}
+    
+ul#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    position:inherit;
+}
+
+
+li.a {
+    float: right;
+}
+
+.menusq{
+ height: 200px;
+    width: auto;
+padding-top: 165px;
+}
+
+
+a.ex1:link, a.ex1:visited {
+    display: block;
+    width: 200px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    
+}
+
+a.ex1:hover, a.ex1:active {
+    background-color: #AEC6CF;
+}
+
+.borders{
+
+}
+
+
+.innerContainer{
+ height:40px;
+ width: auto;
+ background-color:  #AEC6CF;
+
+
+
+}
+
+.innerContainer2{
+ height:421px;
+ width: auto;
+display: table;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+p{
+ font-size: 16px;   
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; 
+    display: table;
+}
+
+
+.contact{
+float: left;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   
+}
+
+h4{
+    font-size: 18px; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400; 
+    display: table;
+    position: relative;
+}
+
+
+
+.innerContainer3{
+ height:480px;
+ width: auto;
+ background-color:  #AEC6CF;
+    padding-left: 7px;
+    padding-right: 7px;
+
+}
+
+.email{
+ font-size: 15px;   
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+h1{
+ font-size: 18px;   
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+   padding-top: 5px;
+}
+
+.findus{
+border: 0;
+
+}
+
+.lineseparator{
+   height: 1px;
+    background-color: white;
+}
+
+h2{
+ font-size: 18px;   
+    text-align: left;
+    padding-left: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+li.b{
+ text-align: left;
+}
+ul#help{
+    list-style-type: none;
+        font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    
+}
+
+li.c{
+ text-align: right; 
+    margin-right: 40px;
+}
+
+ul#Shopping{
+ list-style-type: none;
+}
+
+
+a.ex2:link, a.ex2:visited {
+
+    width: 200px;
+    color: black;
+
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    
+}
+
+a.ex2:hover, a.ex2:active {
+    color: white;
+}
+
+h3{
+  font-size: 18px;   
+    text-align: right;
+    padding-right: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300; 
+    margin-top: -120px;
+}
+
+
+
