@@ -2,25 +2,27 @@ body {
  background-color: white;  
 }
 
+    
+@font-face {font-family:"Lucida Blackletter";src:url("Aro.eot?")
+}
+
+
 h7{
-font-family: 'Lobster', cursive;
+font-family: "Lucida Blackletter";
     font-size: 150px;
-   float: left;
-padding-left: 100px;
-    position: absolute;
 
 }
 
+.headline{
+ text-align: center;   
+}
 
 a.poem:link, a.poem:visited {
     color: black;
     text-decoration: none;  
 }
 
-a.poem:hover, a.poem:active {
-    color: #AEC6CF;
-}
-      
+   
 .content{ 
     text-align: center;
     float: center;
@@ -42,9 +44,9 @@ li.a {
 }
 
 .menusq{
- height: 200px;
+ height: 40px;
     width: auto;
-padding-top: 165px;
+
 }
 
 
@@ -62,15 +64,9 @@ a.ex1:link, a.ex1:visited {
 }
 
 a.ex1:hover, a.ex1:active {
-    background-color: #AEC6CF;
+  font-weight: 500;
 }
 
-.innerContainer{
- height:40px;
- width: auto;
- background-color:  #AEC6CF;
-margin-bottom: 10px;
-}
 
 .innerContainer2{
  height:670px;
@@ -109,21 +105,6 @@ h4{
     display: table;
 }
 
-.innerContainer3{
- height:480px;
- width: auto;
- background-color:  #AEC6CF;
-    padding-left: 7px;
-    padding-right: 7px;
-}
-
-.email{
- font-size: 15px;   
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-}
-
 h1{
  font-size: 18px;   
     text-align: center;
@@ -146,12 +127,12 @@ border: 0;
 
 .lineseparator{
    height: 1px;
-    background-color: white;
+    background-color: black;
 }
 
 .lineseparator2{
    height: 1px;
-    background-color:#AEC6CF;
+    background-color:black;
     text-align: center;
     margin-left: 400px;
     margin-right: 400px;
@@ -246,8 +227,7 @@ ul.img-list1 li:hover span.text-content1 {
 }
 
 span.text-content1 {
-  background: #AEC6CF;
-  color: black;
+  color: white;
   cursor: pointer;
   display: table;
   height: 302px;
@@ -261,7 +241,7 @@ span.text-content1 {
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
         font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 100;
 }
 
 
@@ -301,8 +281,7 @@ ul.img-list2 li:hover span.text-content2 {
 }
 
 span.text-content2 {
-  background: #AEC6CF;
-  color: black;
+  color: white;
   cursor: pointer;
   display: table;
   height: 302px;
@@ -316,7 +295,7 @@ span.text-content2 {
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
         font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 100;
 }
 
 
@@ -356,8 +335,7 @@ ul.img-list3 li:hover span.text-content3 {
 }
 
 span.text-content3 {
-  background: #AEC6CF;
-  color: black;
+  color: white;
   cursor: pointer;
   display: table;
   height: 302px;
@@ -371,7 +349,7 @@ span.text-content3 {
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
         font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 100;
 }
 
 
@@ -412,8 +390,7 @@ ul.img-list4 li:hover span.text-content4 {
 }
 
 span.text-content4 {
-  background: #AEC6CF;
-  color: black;
+  color: white;
   cursor: pointer;
   display: table;
   height: 302px;
@@ -427,5 +404,5 @@ span.text-content4 {
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
         font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 100;
 }

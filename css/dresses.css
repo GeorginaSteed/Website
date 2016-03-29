@@ -2,9 +2,12 @@ body {
  background-color: white;  
 }
     
-
+@font-face {font-family:"Lucida Blackletter";src:url("Aro.eot?")
+}
     
-     
+.headline{
+ text-align: center;   
+}    
 .content{ 
     text-align: center;
     float: center;
@@ -39,20 +42,14 @@ a.ex1:link, a.ex1:visited {
 }
 
 a.ex1:hover, a.ex1:active {
-    background-color: #AEC6CF;
+ font-weight: 500;
 }
 
-.innerContainer{
- height:40px;
- width: auto;
- background-color:  #AEC6CF;
-    padding-left: 10px;
-}
 
 .menusq{
- height: 200px;
+ height: 50px;
     width: auto;
-padding-top: 165px;
+
 
 }
 
@@ -62,7 +59,7 @@ padding-top: 165px;
     padding-right: 20px;
     padding-left: 30px;
     padding-top: 20px;
-    background-color: #AEC6CF;
+    background-color: none;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 150px;
@@ -78,12 +75,6 @@ padding-top: 165px;
 
 }
 
-.email{
- font-size: 15px;   
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-}
 
 h1{
  font-size: 18px;   
@@ -93,14 +84,11 @@ h1{
    padding-top: 5px;
 }
 
-.findus{
-border: 0;
 
-}
 
 .lineseparator{
    height: 1px;
-    background-color: white;
+    background-color: black;
 }
 
 h2{
@@ -157,16 +145,13 @@ h3{
 }
 
 h7{
-font-family: 'Lobster', cursive;
+font-family: "Lucida Blackletter";
     font-size: 150px;
-   float: left;
-padding-left: 100px;
-    position: absolute;
 }
 
 
 a.poem:link, a.poem:visited {
-    color:  #AEC6CF;
+color: black;
     text-decoration: none;
 }
 
@@ -229,15 +214,13 @@ h9{
         font-family: 'Open Sans', sans-serif;
     font-weight: 300; 
     font-size: 18px;
-    margin-left: 420px;
- 
-   
+margin-left: 430px;
 }
 
 
 .lineseparator2{
    height: 1px;
-    background-color:white;
+    background-color: black;
     text-align: center;
     margin-left: 380px;
     margin-right: 400px;

@@ -2,24 +2,20 @@ body {
  background-color: white;  
 }
 
+@font-face {font-family:"Lucida Blackletter";src:url("Aro.eot?")
+}
+.headline{
+ text-align: center;   
+}
+
 h7{
-font-family: 'Lobster', cursive;
+font-family: "Lucida Blackletter";
     font-size: 150px;
-   float: left;
-padding-left: 100px;
-    position: absolute;
+   text-align: center;
+
 }
 
 
-a.poem:link, a.poem:visited {
-    color: black;
-    text-decoration: none;
-  
-}
-
-a.poem:hover, a.poem:active {
-    color: #AEC6CF;
-}
 
 
       
@@ -39,16 +35,15 @@ ul#menu {
 }
 
 
-li.a {
-    float: right;
-}
-
 .menusq{
- height: 200px;
+ height: 40px;
     width: auto;
-padding-top: 165px;
 }
 
+li.a {
+    float:right;
+    
+}
 
 a.ex1:link, a.ex1:visited {
     display: block;
@@ -63,23 +58,19 @@ a.ex1:link, a.ex1:visited {
     
 }
 
+
+
+a.poem:link, a.poem:visited {
+
+    color: black;
+    text-decoration: none;  
+}
+
 a.ex1:hover, a.ex1:active {
-    background-color: #AEC6CF;
-}
-
-.borders{
-
+ font-weight: 500;
 }
 
 
-.innerContainer{
- height:40px;
- width: auto;
- background-color:  #AEC6CF;
-
-
-
-}
 
 .innerContainer2{
  height:421px;
@@ -87,6 +78,7 @@ a.ex1:hover, a.ex1:active {
 display: table;
     padding-left: 5px;
     padding-right: 5px;
+    padding-top: 10px;
 }
 
 p{
@@ -115,21 +107,7 @@ h4{
 
 
 
-.innerContainer3{
- height:480px;
- width: auto;
- background-color:  #AEC6CF;
-    padding-left: 7px;
-    padding-right: 7px;
 
-}
-
-.email{
- font-size: 15px;   
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-}
 
 h1{
  font-size: 18px;   
@@ -146,7 +124,7 @@ border: 0;
 
 .lineseparator{
    height: 1px;
-    background-color: white;
+    background-color: black;
 }
 
 h2{
